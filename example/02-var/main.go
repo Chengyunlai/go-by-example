@@ -13,6 +13,8 @@ func main() {
 
 	var d = true // 自动推导
 
+	var flag bool = true // 布尔
+
 	var e float64 // 声明未赋值
 
 	// 语法：变量名 := 值
@@ -21,6 +23,7 @@ func main() {
 	g := a + "foo"
 	fmt.Println(a, b, c, d, e, f) // initial 1 2 true 0 0
 	fmt.Println(g)                // initialapple
+	fmt.Println(flag)
 
 	// 常量的声明
 	const s string = "constant"
